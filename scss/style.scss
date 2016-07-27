@@ -1,0 +1,56 @@
+/****************************************************
+this file is machine (SASS) generated, DO NOT CHANGE!
+****************************************************/
+
+@import "./_normalize.scss";
+@import "./_variables.scss";
+
+
+body {
+    background-color: $color;
+}
+
+.title {
+    display: block;
+    font-size: 20px;
+    font-family: Verdana;
+    margin: 4vw auto;
+    color:darkred;
+    height:30px;
+    line-height: 30px;
+    min-width: 1000px;
+    max-width:1500px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.painting {
+    position: relative;
+    width:700px;
+    margin: 12vw auto;
+    display:block;
+    cursor: url("../images/meat_cleaver_flipped_small.ico") 9 50, auto;
+}
+
+.frame {
+    width:122%;
+    position: absolute;
+    top:-15%;
+    left:-11%;
+    z-index:2;
+}
+
+.image {
+    width:100%;
+    height: auto;
+    z-index:0;
+}
+
+.done {
+    width:100%;
+    height: auto;
+    position: absolute;
+    left:0;
+    top:3px;
+    z-index:1;
+}
